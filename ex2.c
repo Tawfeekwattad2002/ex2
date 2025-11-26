@@ -55,7 +55,7 @@ int main()
                 duck41=0,duck42=0,duck43=0,duck44=0,duck45=0,duck46=0,duck47=0,duck48=0,
                 duck49=0,duck50=0,duck51=0,duck52=0,duck53=0,duck54=0,duck55=0,duck56=0,
                 duck57=0,duck58=0,duck59=0,duck60=0,duck61=0,duck62=0,duck63=0,duck64=0;
-                scanf ("%d",&xb);
+                scanf ("%ld",&xb);
                 while (xb<0){
                         printf("Invalid number, please try again\n");
                         scanf("%ld",&xb);
