@@ -46,7 +46,7 @@ int main()
         // TASK 2: The Memory Game
             else if(gamenumber==2){
                 printf("please enter the number of ducks:\n");
-                long xb;
+                long int xb,i;
                 int duck1=0,duck2=0,duck3=0,duck4=0,duck5=0,duck6=0,duck7=0,duck8=0;
                 int duck9=0,duck10=0,duck11=0,duck12=0,duck13=0,duck14=0,duck15=0,duck16=0
                 ,duck17=0,duck18=0,duck19=0,duck20=0,duck21=0,duck22=0,duck23=0,duck24=0,
@@ -58,13 +58,13 @@ int main()
                 scanf ("%d",&xb);
                 while (xb<0){
                         printf("Invalid number, please try again\n");
-                        scanf("%d",&xb);
+                        scanf("%ld",&xb);
                     }
                 if (xb>0) {
-                    printf("you entered %d ducks\n",xb);
-                    int decider,i;
+                    printf("you entered %ld ducks\n",xb);
+                    int decider;
                     for (i=0; i<xb; i++) {
-                        printf("duck %d do QUAK? 1 for yes, 0 for no\n",i+1);
+                        printf("duck %ld do QUAK? 1 for yes, 0 for no\n",i+1);
                         scanf("%d",&decider);
                         while (decider<0||decider>1) {
                             printf("Invalid number, please try again\n");
@@ -138,7 +138,7 @@ int main()
                         }
                     }
                     for (i=0; i<xb; i++) {
-                        printf("duck number %d do ",i+1);
+                        printf("duck number %ld do ",i+1);
                         switch (i+1) {
                             case 1: decider=duck1; break;
                             case 2: decider=duck2; break;
