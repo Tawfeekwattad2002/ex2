@@ -25,7 +25,7 @@ int main()
                 printf("please enter a positive number:\n");
                 int xa,counter=0;
                 scanf("%d",&xa);
-                    while(xa<0){
+                    while(xa<=0){
                         printf("Invalid number, please try again\n");
                         scanf("%d",&xa);
                     }
@@ -45,7 +45,7 @@ int main()
                     long int xb;
                     scanf("%ld", &xb);
                     // Validate duck number.
-                    while (xb < 0 || xb > 64) {
+                    while (xb <=0 || xb > 64) {
                         printf("Invalid number, please try again\n");
                         scanf("%ld", &xb);
                     }
@@ -84,7 +84,7 @@ int main()
          int exp,j,xc,temp1=1;
          printf("please enter the number\n");
          scanf ("%d",&xc);
-             while(xc<0){
+             while(xc<=0){
                  printf("Invalid number, please try again\n");
                  scanf("%d",&xc);
              }
@@ -107,7 +107,7 @@ int main()
             //entering valid number and if it is valid the code continue but if it is not , the code assures to have valid one.
             printf("please enter number of ducks:\n");
             scanf ("%d",&xd);
-            while(xd<0) {
+            while(xd<=0) {
                 printf("Invalid number, please try again\n");
                 scanf("%d",&xd);
             }
