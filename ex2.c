@@ -84,11 +84,11 @@ int main()
          int exp,j,xc,temp1=1;
          printf("please enter the number\n");
          scanf ("%d",&xc);
-             while(xc<=0){
+             while(xc<0){
                  printf("Invalid number, please try again\n");
                  scanf("%d",&xc);
              }
-         if (xc>0) {
+         if (xc>=0) {
              printf("please enter the exponent\n");
              scanf ("%d",&exp);
                  while(exp<0) {
