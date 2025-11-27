@@ -107,12 +107,12 @@ int main()
             //entering valid number and if it is valid the code continue but if it is not , the code assures to have valid one.
             printf("please enter number of ducks:\n");
             scanf ("%d",&xd);
-            while(xd<=0) {
+            while(xd<0) {
                 printf("Invalid number, please try again\n");
                 scanf("%d",&xd);
             }
             //
-            if (xd>0) {
+            if (xd>=0) {
                 rows=xd/10;
                 remaining=xd-(rows*10);
                 //10 ducks in first row
